@@ -1,0 +1,23 @@
+1. Interpretamos la funcion y el punto de analisis.
+   f(x) = (x**2 - 4)/(x - 2)
+   Punto: x = 2
+2. Calculamos el limite cuando x se acerca por la izquierda.
+   Limite izquierdo: 4
+3. Calculamos el limite cuando x se acerca por la derecha.
+   Limite derecho: 4
+4. Evaluamos la funcion exactamente en el punto.
+   f(2) = nan
+5. Comparamos los resultados obtenidos.
+   Limite por la izquierda: 4
+   Limite por la derecha: 4
+   Valor de la funcion en el punto: nan
+   El limite existe, pero el valor de la funcion no coincide o no esta definido.
+6. Redefinimos la funcion usando el valor del limite.
+   Limite comun: 4
+   Funcion redefinida:
+F(x) = {
+   (x**2 - 4)/(x - 2), si x != 2
+   4, si x = 2
+}
+
+Resultado final: La funcion es discontinua removible en x = 2. Para hacerla continua se redefine f(2) = 4.
